@@ -1,7 +1,7 @@
-Icon64
-======
+ThingPulse ePulse Feather
+=========================
 
-Example project for the Icon64 to test the pixels. First the Icon64 cycles through red, green, blue, white and black for five seconds,
-then it cycles through the hue values for another five seconds.
+Example project for the ePulse Feather. It runs some tests and prints the test results as 
+JSON formatted string to the serial console.
 
-You can buy the Icon64 here: https://thingpulse.com/product/icon64/
+You can buy the ePulse Feather here: https://thingpulse.com/product/epulse-feather-low-power-esp32-development-board/
