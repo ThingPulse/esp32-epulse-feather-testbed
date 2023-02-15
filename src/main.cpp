@@ -22,12 +22,6 @@ float getBatteryVoltage() {
   return batteryVoltage;
 }
 
-String createTestMessage(String name, String value, String result) {
-  return "{\"name\": \"" + name + "\","
-    + "\"value\": \"" + value + "\","
-    + "\"result\": \"" + result + "\"}";
-}
-
 void addTestMessage(JsonArray& data, String name, String value, String result) {
     JsonObject object = data.createNestedObject();
     object["name"] = name;
